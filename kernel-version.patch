@@ -1,0 +1,4 @@
+20c20
+< PREFERRED_PROVIDER_virtual/kernel = "linux-mainline"
+---
+> PREFERRED_PROVIDER_virtual/kernel = "linux-omap"

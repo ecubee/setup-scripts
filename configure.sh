@@ -7,3 +7,5 @@ git pull upstream master
 
 MACHINE=beagleboard ./oebb.sh config beagleboard
 MACHINE=beagleboard ./oebb.sh update
+
+patch -b sources/meta-ti/conf/machine/beagleboard.conf < kernel-version.patch
